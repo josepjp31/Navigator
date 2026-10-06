@@ -1,4 +1,4 @@
-# 🚇 Navigator — Metro Route Finder with Search Algorithms
+# Navigator — Metro Route Finder with Search Algorithms
 
 A metro navigation system written in Python that finds the best route between two stations (or two arbitrary coordinates) on a city metro map. It implements classic **uninformed** and **informed** search algorithms and lets the user choose the optimisation criterion: fewest stops, minimum time, minimum distance, or fewest line transfers.
 
@@ -6,7 +6,7 @@ Developed as **Project 1** of the *Artificial Intelligence* course at the **Univ
 
 ---
 
-## ✨ Features
+## Features
 
 - **Four search algorithms**: Depth-First Search, Breadth-First Search, Uniform-Cost Search and A\*.
 - **Four optimisation criteria** for the optimal algorithms (Uniform-Cost and A\*):
@@ -26,7 +26,7 @@ Developed as **Project 1** of the *Artificial Intelligence* course at the **Univ
 
 ---
 
-## 🧠 How it works
+## How it works
 
 ### Map representation
 
@@ -51,7 +51,7 @@ All of them share the same skeleton: expand the first path of the list, remove c
 
 ---
 
-## 📁 Project structure
+## Project structure
 
 ```
 NAVIGATOR/
@@ -78,7 +78,7 @@ NAVIGATOR/
 
 ---
 
-## 🚀 Getting started
+## Getting started
 
 ### Requirements
 
@@ -141,13 +141,14 @@ The tests read the data from `./CityInformation/Lyon_smallCity/`, so make sure t
 
 ---
 
-## 🎓 Context
+## Context
 
 - **University**: Universitat Autònoma de Barcelona (UAB)
 - **Course**: Artificial Intelligence
 - **Assignment**: Project 1 — Navigator (Part 1: uninformed search; Part 2: informed search)
 - The assignment statements are available in the [`docs/`](docs) folder.
+-  **Author**: Josep Montoro Pascual
 
-## 📜 License
+## License
 
 This project was developed for educational purposes. Feel free to read and learn from it, but if you are taking the same course, please respect your university's academic integrity policy.
